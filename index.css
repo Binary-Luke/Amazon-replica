@@ -1,0 +1,149 @@
+* {
+    margin: auto;
+}
+
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in {
+    margin-top: 2%;
+    font-weight: 100;
+}
+
+.box {
+    margin-top: 100px;
+    border: 2px solid rgba(209, 205, 205, 0.799);
+    width: 450px;
+    height: 335px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sign-in {
+    margin-bottom: 5%;
+}
+.email {
+    border-radius: 2px;
+    border: 1.5px solid black;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border-color: rgb(126, 124, 124);
+}
+
+.response {
+    margin-left: 15%;
+}
+
+.password {
+    border-radius: 2px;
+    border: 1.5px solid black;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    border-color: rgb(126, 124, 124);
+}
+
+.forgot {
+    float: right;
+    text-decoration: none;
+}
+
+.continue {
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color: rgba(240, 188, 57, 0.955);
+    width: 100%;
+    height: 35px;
+    margin-bottom: 6%;
+}
+
+.help {
+    margin-left: 18px;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(43, 143, 242);
+}
+
+.new {
+    color: gray;
+    margin-top: 10px;
+    width: 500px;
+    height: 125px;
+    text-align: center;
+}
+
+.question{
+    position: relative;
+    max-width: 460px;
+    text-align: center;
+}
+  
+.question:before{
+    content:" ";
+    height: 1px;
+    width: 160px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+  
+.question:after{
+    content:" ";
+    height: 1px;
+    width: 160px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.create {
+    margin-top: 3%;
+    background-color: rgb(228, 226, 226);
+    border-color: rgb(126, 124, 124);
+    width: 92%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1.5px solid rgba(86, 85, 85, 0.359);
+    font-size: 16px;
+}
+
+hr {
+    border: 1.3px solid rgb(152, 151, 151);
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+.links {
+    padding: 25px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(43, 143, 242);
+    font-size: 13px;
+}
+
+.author {
+    font-size: 13px;
+    color: rgb(42, 40, 40);
+}
+
+
+
+
